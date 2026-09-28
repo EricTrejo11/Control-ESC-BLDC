@@ -5228,6 +5228,16 @@
 		)
 		(uuid "3c29560b-c7ab-43e4-958f-84dc9b758d6e")
 	)
+	(text "Para evitar errores\nen las reglas de diseño"
+		(exclude_from_sim no)
+		(at 290.83 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42460e4c-fee5-4f49-936a-725690b3b60c")
+	)
 	(text "Los detectores BEMF\nnecesitan interrupción"
 		(exclude_from_sim no)
 		(at 136.906 240.284 0)
@@ -5384,7 +5394,7 @@
 		(uuid "0f48c6b9-ec1e-4d42-854e-dcd7bf2c7f77")
 	)
 	(junction
-		(at 293.37 86.36)
+		(at 299.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f5d307b-eac7-47a5-9366-56ec836bf7ee")
@@ -5564,7 +5574,7 @@
 		(uuid "5f0c9c42-b7d2-4a5f-8f5d-3eebef6e1458")
 	)
 	(junction
-		(at 242.57 104.14)
+		(at 248.92 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60e1b4c2-26fc-442c-9062-afce67329907")
@@ -5612,7 +5622,7 @@
 		(uuid "7f76cdfd-eebc-41f1-a160-ce07ce598e51")
 	)
 	(junction
-		(at 293.37 104.14)
+		(at 299.72 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "800cc4a2-d31f-4dd6-9f41-1ffafd3bc80a")
@@ -5750,13 +5760,13 @@
 		(uuid "c700f336-f929-414a-a33f-c170109a8ebc")
 	)
 	(junction
-		(at 242.57 86.36)
+		(at 248.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c741b006-6293-4fe0-9b53-4f1f04f09eb5")
 	)
 	(junction
-		(at 267.97 86.36)
+		(at 274.32 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd6d322-cb13-4243-bd69-18ce512c226b")
@@ -5792,7 +5802,7 @@
 		(uuid "ddcdcb77-367f-48c6-af5c-ceeb3fa9666f")
 	)
 	(junction
-		(at 267.97 104.14)
+		(at 274.32 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e58f488f-b402-47c3-a65a-6a6edc36a3ce")
@@ -5936,6 +5946,10 @@
 		(uuid "89a3eddb-65db-406c-b54b-0aaf44b1916e")
 	)
 	(no_connect
+		(at 269.24 123.19)
+		(uuid "8c5a4b59-4d98-4e44-9247-2ddee43ac471")
+	)
+	(no_connect
 		(at 152.4 261.62)
 		(uuid "8ea401d3-a4e8-4b13-8e01-179a2010eb25")
 	)
@@ -5968,8 +5982,16 @@
 		(uuid "c5e632d6-117c-4673-81ca-924f7670a928")
 	)
 	(no_connect
+		(at 284.48 120.65)
+		(uuid "c8c28f92-1e6b-491b-a2cb-daed2a57e66f")
+	)
+	(no_connect
 		(at 165.1 269.24)
 		(uuid "ccfeddce-a15e-4155-bd39-d4bda2a102cd")
+	)
+	(no_connect
+		(at 269.24 118.11)
+		(uuid "d8ab20aa-56fc-4e74-be9b-584bd8f2bbff")
 	)
 	(no_connect
 		(at 152.4 264.16)
@@ -6097,7 +6119,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 104.14) (xy 293.37 104.14)
+			(xy 274.32 95.25) (xy 299.72 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6517,7 +6539,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 267.97 86.36)
+			(xy 248.92 77.47) (xy 274.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 104.14) (xy 267.97 102.87)
+			(xy 274.32 95.25) (xy 274.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6767,7 +6789,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 104.14) (xy 293.37 102.87)
+			(xy 299.72 95.25) (xy 299.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6967,7 +6989,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 86.36) (xy 318.77 86.36)
+			(xy 299.72 77.47) (xy 325.12 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7177,7 +7199,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 104.14) (xy 242.57 102.87)
+			(xy 248.92 95.25) (xy 248.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7287,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 104.14) (xy 318.77 102.87)
+			(xy 325.12 95.25) (xy 325.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7497,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 86.36) (xy 293.37 87.63)
+			(xy 299.72 77.47) (xy 299.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8427,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 104.14) (xy 318.77 104.14)
+			(xy 299.72 95.25) (xy 325.12 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8697,7 +8719,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 104.14) (xy 267.97 104.14)
+			(xy 248.92 95.25) (xy 274.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8977,7 +8999,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 86.36) (xy 293.37 86.36)
+			(xy 274.32 77.47) (xy 299.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9277,7 +9299,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 105.41) (xy 242.57 104.14)
+			(xy 248.92 96.52) (xy 248.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9357,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 85.09) (xy 242.57 86.36)
+			(xy 248.92 76.2) (xy 248.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9397,7 +9419,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 242.57 87.63)
+			(xy 248.92 77.47) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9407,7 +9429,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 86.36) (xy 318.77 87.63)
+			(xy 325.12 77.47) (xy 325.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9427,7 +9449,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 86.36) (xy 267.97 87.63)
+			(xy 274.32 77.47) (xy 274.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14291,7 +14313,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 270.51 95.25 0)
+		(at 276.86 86.36 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14300,7 +14322,7 @@
 		(fields_autoplaced yes)
 		(uuid "269ed240-bf11-4927-97d0-03ee6a4fbff4")
 		(property "Reference" "U6"
-			(at 269.24 93.9799 0)
+			(at 275.59 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,7 +14331,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 269.24 96.5199 0)
+			(at 275.59 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14318,7 +14340,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 270.51 95.25 0)
+			(at 276.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14327,7 +14349,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 270.51 95.25 0)
+			(at 276.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,7 +14358,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 270.51 95.25 0)
+			(at 276.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,7 +15799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 105.41 0)
+		(at 248.92 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15785,7 +15807,7 @@
 		(dnp no)
 		(uuid "519b260c-a9a5-4a78-9fe1-151758ccbade")
 		(property "Reference" "#PWR02"
-			(at 242.57 111.76 0)
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +15816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.856 105.41 0)
+			(at 251.206 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 105.41 0)
+			(at 248.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +15833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 105.41 0)
+			(at 248.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +15842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 105.41 0)
+			(at 248.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17262,7 +17284,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 321.31 95.25 0)
+		(at 327.66 86.36 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17271,7 +17293,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bcd92ab-e8b4-481e-b4e0-403c9ddb3960")
 		(property "Reference" "U7"
-			(at 320.04 93.9799 0)
+			(at 326.39 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,7 +17302,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 320.04 96.5199 0)
+			(at 326.39 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17311,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 321.31 95.25 0)
+			(at 327.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17298,7 +17320,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 321.31 95.25 0)
+			(at 327.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17307,7 +17329,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 321.31 95.25 0)
+			(at 327.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18384,7 +18406,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 245.11 95.25 0)
+		(at 251.46 86.36 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18392,7 +18414,7 @@
 		(dnp no)
 		(uuid "8ccfdc5e-7475-48a6-bd1c-0d9b6a34d0d3")
 		(property "Reference" "U4"
-			(at 244.856 93.726 0)
+			(at 251.206 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18401,7 +18423,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 244.856 96.266 0)
+			(at 251.206 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18410,7 +18432,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 243.84 92.71 0)
+			(at 250.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18419,7 +18441,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 246.38 90.17 0)
+			(at 252.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18428,7 +18450,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 245.11 95.25 0)
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +18656,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 242.57 85.09 0)
+		(at 248.92 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18643,7 +18665,7 @@
 		(fields_autoplaced yes)
 		(uuid "922c00ad-78fb-494c-9948-f75b8679f225")
 		(property "Reference" "#PWR01"
-			(at 242.57 88.9 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +18674,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 242.57 80.01 0)
+			(at 248.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18660,7 +18682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 85.09 0)
+			(at 248.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18669,7 +18691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 85.09 0)
+			(at 248.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18678,7 +18700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 242.57 85.09 0)
+			(at 248.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19647,7 +19669,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7e8e476-cc22-4f6a-8fc9-e6e4d0d89aa8")
 		(property "Reference" "#PWR044"
 			(at 325.12 63.5 0)
@@ -19659,7 +19680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 62.23 0)
+			(at 321.818 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20554,7 +20575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal"
 			(at 241.3 170.18 0)
 			(effects
 				(font
@@ -21635,7 +21656,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 295.91 95.25 0)
+		(at 302.26 86.36 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21644,7 +21665,7 @@
 		(fields_autoplaced yes)
 		(uuid "d54912e9-07ff-4309-8e8f-980e7bdfc796")
 		(property "Reference" "U8"
-			(at 294.64 93.9799 0)
+			(at 300.99 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21653,7 +21674,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 294.64 96.5199 0)
+			(at 300.99 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21662,7 +21683,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 295.91 95.25 0)
+			(at 302.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21671,7 +21692,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 295.91 95.25 0)
+			(at 302.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21680,7 +21701,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 295.91 95.25 0)
+			(at 302.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21848,6 +21869,109 @@
 				(path "/01a146d5-8e9a-47c9-bb38-1ed56f3499cc"
 					(reference "#PWR049")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 276.86 120.65 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de774dbe-d245-4685-9baa-5447808f1fc9")
+		(property "Reference" "U4"
+			(at 274.574 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 274.574 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 278.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 276.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b645856-eb93-46fc-a077-0ee90e5fc308")
+		)
+		(pin "5"
+			(uuid "7cc19e43-da5d-4f96-bf67-e65009c41258")
+		)
+		(pin "9"
+			(uuid "54f723f3-e34e-4755-8163-d90cd0d9af2e")
+		)
+		(pin "4"
+			(uuid "2e80ad4d-a81b-4e78-a9d4-144267b9ccae")
+		)
+		(pin "2"
+			(uuid "f5f312ff-86d2-4001-9af6-478fa31b2e16")
+		)
+		(pin "7"
+			(uuid "1504b9af-ced3-4760-8c0b-c86b6c969ed9")
+		)
+		(pin "6"
+			(uuid "87ff7ea9-b3d9-468e-b9b0-0d3d26b84759")
+		)
+		(pin "13"
+			(uuid "66d8065f-2198-4e03-9401-d0a5364f2d32")
+		)
+		(pin "11"
+			(uuid "2aa531f5-e9f8-4492-9c0d-8ef0a4d0974b")
+		)
+		(pin "10"
+			(uuid "c446f817-b9a7-440d-a0ad-82698b0b159c")
+		)
+		(pin "8"
+			(uuid "fe33812f-10c6-4137-979e-6c34a2cbbaeb")
+		)
+		(pin "3"
+			(uuid "49806e5e-c85a-4173-8649-4157fac4e0f4")
+		)
+		(pin "12"
+			(uuid "15e21c6b-8a85-4ad3-9a6f-49cf0b5e049c")
+		)
+		(pin "14"
+			(uuid "5ef21c32-a7c7-4a22-b6c9-31acc830b982")
+		)
+		(instances
+			(project ""
+				(path "/01a146d5-8e9a-47c9-bb38-1ed56f3499cc"
+					(reference "U4")
+					(unit 4)
 				)
 			)
 		)
