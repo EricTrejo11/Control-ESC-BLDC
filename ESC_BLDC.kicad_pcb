@@ -429,7 +429,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "02559c14-756d-419c-b875-b82c4fe0eacb")
-		(at 79.8 18.92)
+		(at 102.3 18)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "JBootA1"
@@ -1477,7 +1477,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "14d40659-8e7e-425b-bfb5-de985cfed2fa")
-		(at 32.66 63.58)
+		(at 32.43 19.08)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -2567,7 +2567,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2401a014-57aa-4528-97fc-2802450918ee")
-		(at 19.42 82.5)
+		(at 19.19 38)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J_DC1"
@@ -3040,7 +3040,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2529f879-d3ae-4bac-ac46-aea42825cd45")
-		(at 32.5 78.5)
+		(at 32.27 34)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "RGND0"
@@ -3944,7 +3944,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "30795b78-a6fd-431b-8188-fea51b57e5b1")
-		(at 70.5 18.92)
+		(at 93 18)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "JB1"
@@ -5684,7 +5684,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "486b3f69-c0b3-4bc4-9568-dff74be953d4")
-		(at 79.8 28.22)
+		(at 102.3 27.3)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "JBootC1"
@@ -5928,7 +5928,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4875df42-7bb3-42ef-8749-13f3989318f8")
-		(at 70.5 34.42)
+		(at 93 33.5)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "JA2"
@@ -6406,7 +6406,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4bac228f-2f4f-4ba2-8325-df536502fd8f")
-		(at 65.92 67.5)
+		(at 127.915 21.1725)
 		(descr "Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-3-5.08 pitch 5.08mm size 15.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "RPOT1"
@@ -6972,7 +6972,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4ff3f8cc-cb5f-4a4c-b458-a61a0c5a3819")
-		(at 65.85 34.42)
+		(at 88.35 33.5)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
@@ -8941,7 +8941,7 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "5c13c3da-bbd0-4d9d-8cec-d75a0a60cd9a")
-		(at 20 68)
+		(at 19.77 23.5)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "CDES1"
@@ -10564,7 +10564,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6c52791c-8b69-4093-94f8-86cc01f9ee9f")
-		(at 79.8 23.57)
+		(at 102.3 22.65)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "JBootB1"
@@ -10808,7 +10808,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "72cf645c-1ece-45c5-8027-7bfd05331c04")
-		(at 35 32 -90)
+		(at 57.5 31.08 -90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -12642,7 +12642,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "84b02e98-3e2b-4453-ab7d-ebb26c0776a9")
-		(at 65.5 79)
+		(at 127.495 32.6725)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CPOT1"
@@ -13647,7 +13647,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8d3cdd3f-66c9-4728-95c8-98764941da6f")
-		(at 65.5 75.65)
+		(at 127.495 29.3225)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CDESPOT1"
@@ -14336,13 +14336,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "90a4f889-66e9-4b68-8fa0-f3c773b6f2c6")
-		(at 28 18.84)
+		(at 239.3188 104.14)
 		(descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x10 2.54mm double row")
 		(property "Reference" "JTIVAR1"
 			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "e347b2ca-4e13-4083-9b6e-12cf60707a90")
+			(uuid "b84f4968-ceed-43d6-8366-50b1b99cfa04")
 			(effects
 				(font
 					(size 1 1)
@@ -14353,7 +14353,7 @@
 		(property "Value" "Conn_02x10_Top_Bottom"
 			(at 1.27 25.19 0)
 			(layer "F.Fab")
-			(uuid "3724d90d-a877-4bb0-90a7-43a0562fbd39")
+			(uuid "29161601-ff9c-4773-b7a4-a2310f9700e2")
 			(effects
 				(font
 					(size 1 1)
@@ -14366,7 +14366,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1eccf11f-3e26-43c6-834a-c16a45cccae0")
+			(uuid "b6c16e2d-a235-4da3-b7e7-928125dd5545")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14379,7 +14379,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd64ef9d-4fb7-43fc-ae89-604023e40023")
+			(uuid "cef57c49-1a78-4ba9-9449-74a9eb25c726")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,13 +15311,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "97a83688-62e3-450e-9d91-495bcda43466")
-		(at 20.34 18.92)
+		(at 196.1388 104.14)
 		(descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x10 2.54mm double row")
 		(property "Reference" "JTIVAL1"
 			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "d889d2e0-3940-4174-a0ad-3f59d03ee61c")
+			(uuid "1e62983a-840b-400d-b577-e200d15f54df")
 			(effects
 				(font
 					(size 1 1)
@@ -15328,7 +15328,7 @@
 		(property "Value" "Conn_02x10_Top_Bottom"
 			(at 1.27 25.19 0)
 			(layer "F.Fab")
-			(uuid "2a831eab-e7e5-462e-a89e-10d5774e74dc")
+			(uuid "5a78fd70-777b-4997-a3b9-e731b388eb02")
 			(effects
 				(font
 					(size 1 1)
@@ -15341,7 +15341,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b5f84ed-f1b8-4fdd-a1cb-346de8761d1e")
+			(uuid "e356054e-24d8-479c-b125-6a2225e0a1a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15354,7 +15354,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce9dd498-701e-4d78-8877-ed9695a5da99")
+			(uuid "16306288-322f-48ce-8995-63de64da3e94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16069,7 +16069,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9c164eab-b3db-4095-8465-687a2dfea950")
-		(at 65.85 18.92)
+		(at 88.35 18)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "JA1"
@@ -16558,7 +16558,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9fce04f2-832a-40c6-bc24-51ba6921ec84")
-		(at 36.415 22.6725)
+		(at 58.915 21.7525)
 		(descr "Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-3-5.08 pitch 5.08mm size 15.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "JBLDC1"
@@ -18012,7 +18012,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b3f82eac-21b9-484b-ba63-2985604aa087")
-		(at 79.8 34.42)
+		(at 102.3 33.5)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "JB3"
@@ -20437,7 +20437,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c6b226be-5f42-4a5f-828e-c4c374511e84")
-		(at 85 18.84)
+		(at 107.5 17.92)
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J1"
@@ -21310,7 +21310,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d0690945-84e9-4d97-af42-5e12ff1b830f")
-		(at 75.15 18.92)
+		(at 97.65 18)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "JC1"
@@ -21799,7 +21799,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e0b89f9a-982c-4865-95a0-2cd4db7baf3f")
-		(at 75.15 34.42)
+		(at 97.65 33.5)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "JB2"
@@ -24053,7 +24053,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "fb14f9f4-032d-4371-8170-4a6fd5c61582")
-		(at 31.23 69.5)
+		(at 31 25)
 		(descr "LED, diameter 3.0mm, 2 pins, generated by kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
@@ -24692,8 +24692,48 @@
 		)
 	)
 	(gr_line
-		(start 240 50)
-		(end 240 140)
+		(start 193.5988 139.7)
+		(end 193.5988 76.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "18033340-b943-40df-b94e-f7dd02137384")
+	)
+	(gr_line
+		(start 244.3988 139.7)
+		(end 193.5988 139.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6f78117f-1b06-4491-8ae4-bf35389e7e8b")
+	)
+	(gr_line
+		(start 244.3988 76.2)
+		(end 244.3988 139.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a0f84381-85ee-4dc9-9669-f04f50e49eca")
+	)
+	(gr_line
+		(start 193.5988 76.2)
+		(end 244.3988 76.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e9c107d0-875e-4116-88bf-3cb33b7b66ec")
+	)
+	(gr_line
+		(start 254 41.36)
+		(end 254 131.36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -24702,8 +24742,8 @@
 		(uuid "42953bd3-bd4c-4167-abe9-684f56a67b1f")
 	)
 	(gr_line
-		(start 170 50)
-		(end 240 50)
+		(start 184 41.36)
+		(end 254 41.36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -24712,8 +24752,8 @@
 		(uuid "499c7059-cf3d-48c4-9718-59191329168a")
 	)
 	(gr_line
-		(start 170 140)
-		(end 170 50)
+		(start 184 131.36)
+		(end 184 41.36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -24722,14 +24762,32 @@
 		(uuid "81717b9b-7a9a-462d-80a5-f58240868900")
 	)
 	(gr_line
-		(start 240 140)
-		(end 170 140)
+		(start 254 131.36)
+		(end 184 131.36)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d719915f-fe55-4999-aaae-feb683d98be7")
+	)
+	(group ""
+		(uuid "69023ede-4c98-4fe2-bd8f-8d5988825f4a")
+		(members "90a4f889-66e9-4b68-8fa0-f3c773b6f2c6" "97a83688-62e3-450e-9d91-495bcda43466")
+	)
+	(group ""
+		(uuid "f430abb7-9baf-4bc8-8099-57171e1e2254")
+		(members "18033340-b943-40df-b94e-f7dd02137384" "69023ede-4c98-4fe2-bd8f-8d5988825f4a"
+			"6f78117f-1b06-4491-8ae4-bf35389e7e8b" "a0f84381-85ee-4dc9-9669-f04f50e49eca"
+			"e9c107d0-875e-4116-88bf-3cb33b7b66ec"
+		)
+	)
+	(group ""
+		(uuid "aba0a251-a3f2-4a8a-a30d-fcd08f8e3e33")
+		(members "42953bd3-bd4c-4167-abe9-684f56a67b1f" "499c7059-cf3d-48c4-9718-59191329168a"
+			"81717b9b-7a9a-462d-80a5-f58240868900" "d719915f-fe55-4999-aaae-feb683d98be7"
+			"f430abb7-9baf-4bc8-8099-57171e1e2254"
+		)
 	)
 	(embedded_fonts no)
 )
