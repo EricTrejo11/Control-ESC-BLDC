@@ -617,6 +617,18 @@
       "Net-(U1-LO)": [
         "Potencia"
       ],
+      "Net-(U10-HO)": [
+        "Potencia"
+      ],
+      "Net-(U10-LO)": [
+        "Potencia"
+      ],
+      "Net-(U11-HO)": [
+        "Potencia"
+      ],
+      "Net-(U11-LO)": [
+        "Potencia"
+      ],
       "Net-(U2-HO)": [
         "Potencia"
       ],
@@ -646,6 +658,12 @@
       ],
       "Net-(U8A-+)": [
         "Analogico"
+      ],
+      "Net-(U9-HO)": [
+        "Potencia"
+      ],
+      "Net-(U9-LO)": [
+        "Potencia"
       ],
       "VBA": [
         "Potencia"
