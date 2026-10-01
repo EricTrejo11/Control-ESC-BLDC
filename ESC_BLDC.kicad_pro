@@ -524,6 +524,9 @@
       "BEMFC": [
         "Digital"
       ],
+      "CS": [
+        "Analogico"
+      ],
       "DFAHIN": [
         "Potencia"
       ],
@@ -599,6 +602,12 @@
       "GCL": [
         "Potencia"
       ],
+      "MISO": [
+        "Analogico"
+      ],
+      "MOSI": [
+        "Analogico"
+      ],
       "NEUTRO": [
         "Analogico"
       ],
@@ -664,6 +673,9 @@
       ],
       "Net-(U9-LO)": [
         "Potencia"
+      ],
+      "SCLK": [
+        "Analogico"
       ],
       "VBA": [
         "Potencia"
