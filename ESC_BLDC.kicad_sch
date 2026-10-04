@@ -5870,12 +5870,6 @@
 		(uuid "6925f252-86ba-4001-bbdd-9dd88c8df1de")
 	)
 	(junction
-		(at 69.85 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7313382d-1789-4a1f-947c-bd658b580bf9")
-	)
-	(junction
 		(at 82.55 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6551,6 +6545,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 38.1) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab8fb99-f012-4d29-b30a-59271d7061a0")
+	)
+	(wire
+		(pts
 			(xy 280.67 39.37) (xy 279.4 39.37)
 		)
 		(stroke
@@ -6789,16 +6793,6 @@
 		)
 		(uuid "1c61b0cb-efc7-4fbb-b899-b575c7feb50e")
 	)
-	(wire
-		(pts
-			(xy 69.85 38.1) (xy 66.04 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e2d2905-cbce-4c3e-99a4-5e5436452b75")
-	)
 	(polyline
 		(pts
 			(xy 13.97 72.39) (xy 13.97 13.97)
@@ -6858,16 +6852,6 @@
 			(type default)
 		)
 		(uuid "20f2df35-b5f7-4274-8add-0aaf82f0baa5")
-	)
-	(wire
-		(pts
-			(xy 69.85 29.21) (xy 69.85 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21140ceb-1028-4d72-a600-6953f3da444c")
 	)
 	(wire
 		(pts
@@ -7401,7 +7385,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 69.85 29.21)
+			(xy 68.58 29.21) (xy 73.66 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7661,16 +7645,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 73.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1cb536-a520-4dda-a1bb-a6a999b2fafc")
-	)
-	(wire
-		(pts
 			(xy 201.93 222.25) (xy 217.17 222.25)
 		)
 		(stroke
@@ -7851,16 +7825,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 26.67) (xy 69.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b3da776-1210-4754-8bca-f480e8e1877c")
-	)
-	(wire
-		(pts
 			(xy 48.26 29.21) (xy 60.96 29.21)
 		)
 		(stroke
@@ -7988,6 +7952,16 @@
 			(type solid)
 		)
 		(uuid "73d7cff3-2e50-4e50-84db-85f34bcb437e")
+	)
+	(wire
+		(pts
+			(xy 69.85 26.67) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ef8d56-4c4e-4006-809f-f2a66ef4ee01")
 	)
 	(wire
 		(pts
@@ -12217,40 +12191,6 @@
 	(netclass_flag ""
 		(length 0.6)
 		(shape dot)
-		(at 40.64 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 189 16 38 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "13ac28c7-e96f-4f5b-9c9e-1b3904d93398")
-		(property "Netclass" "Potencia"
-			(at 41.3385 45.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at -179.07 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.6)
-		(shape dot)
 		(at 69.85 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12489,6 +12429,40 @@
 	(netclass_flag ""
 		(length 0.6)
 		(shape dot)
+		(at 68.58 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 24 189 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f9bc85a-906a-455c-99c8-e3207a41bb07")
+		(property "Netclass" "Analogico"
+			(at 69.2785 37.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -151.13 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.6)
+		(shape dot)
 		(at 69.85 162.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12523,6 +12497,40 @@
 	(netclass_flag ""
 		(length 0.6)
 		(shape dot)
+		(at 44.45 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 39 189 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d3d4f5-5ff9-4b0a-9687-3db2ee2b5f8f")
+		(property "Netclass" "Digital"
+			(at 45.1485 40.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -175.26 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.6)
+		(shape dot)
 		(at 165.1 217.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12545,40 +12553,6 @@
 		)
 		(property "Component Class" ""
 			(at -54.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.6)
-		(shape dot)
-		(at 40.64 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 189 16 38 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "47ac57f1-1bcf-4428-87b7-e794d305cdb0")
-		(property "Netclass" "Potencia"
-			(at 41.3385 47.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at -179.07 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12919,40 +12893,6 @@
 		)
 		(property "Component Class" ""
 			(at 83.82 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.6)
-		(shape dot)
-		(at 71.755 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 189 16 38 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a4a001a-7a0b-4f53-a8ae-a83d35e1e940")
-		(property "Netclass" "Potencia"
-			(at 72.4535 28.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at -147.955 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,6 +13313,40 @@
 	(netclass_flag ""
 		(length 0.6)
 		(shape dot)
+		(at 72.39 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 24 189 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa302bb9-0785-46c9-8baa-e17c58c8d10c")
+		(property "Netclass" "Analogico"
+			(at 73.0885 28.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -147.32 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.6)
+		(shape dot)
 		(at 241.3 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13769,6 +13743,40 @@
 		)
 		(property "Component Class" ""
 			(at -137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.6)
+		(shape dot)
+		(at 44.45 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 39 189 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0e9b4c8-25d5-4599-a7d0-4c78a14005cb")
+		(property "Netclass" "Digital"
+			(at 45.1485 47.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -175.26 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -186,7 +186,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -491,6 +492,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(108, 0, 255)",
+        "track_width": 0.3,
         "wire_width": 12
       },
       {
@@ -499,6 +501,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(6, 81, 255)",
+        "track_width": 0.3,
         "wire_width": 8
       },
       {
@@ -507,6 +510,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(168, 8, 17)",
+        "track_width": 1.0,
         "wire_width": 16
       }
     ],
@@ -528,10 +532,10 @@
         "Analogico"
       ],
       "DFAHIN": [
-        "Potencia"
+        "Digital"
       ],
       "DFALIN": [
-        "Potencia"
+        "Digital"
       ],
       "DFBHIN": [
         "Potencia"
@@ -611,6 +615,9 @@
       "NEUTRO": [
         "Analogico"
       ],
+      "Net-(D2-K)": [
+        "Analogico"
+      ],
       "Net-(D5-K)": [
         "Potencia"
       ],
@@ -678,7 +685,7 @@
         "Analogico"
       ],
       "VBA": [
-        "Potencia"
+        "Analogico"
       ],
       "VBB": [
         "Potencia"
