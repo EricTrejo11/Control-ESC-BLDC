@@ -493,6 +493,8 @@
         "priority": 2,
         "schematic_color": "rgb(108, 0, 255)",
         "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.5,
         "wire_width": 12
       },
       {
@@ -502,6 +504,8 @@
         "priority": 0,
         "schematic_color": "rgb(6, 81, 255)",
         "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.5,
         "wire_width": 8
       },
       {
@@ -511,6 +515,8 @@
         "priority": 1,
         "schematic_color": "rgb(168, 8, 17)",
         "track_width": 1.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
         "wire_width": 16
       }
     ],
@@ -538,16 +544,16 @@
         "Digital"
       ],
       "DFBHIN": [
-        "Potencia"
+        "Digital"
       ],
       "DFBLIN": [
-        "Potencia"
+        "Digital"
       ],
       "DFCHIN": [
-        "Potencia"
+        "Digital"
       ],
       "DFCLIN": [
-        "Potencia"
+        "Digital"
       ],
       "DUTY": [
         "Analogico"
@@ -589,22 +595,22 @@
         "Digital"
       ],
       "GAH": [
-        "Potencia"
+        "Analogico"
       ],
       "GAL": [
-        "Potencia"
+        "Analogico"
       ],
       "GBH": [
-        "Potencia"
+        "Analogico"
       ],
       "GBL": [
-        "Potencia"
+        "Analogico"
       ],
       "GCH": [
-        "Potencia"
+        "Analogico"
       ],
       "GCL": [
-        "Potencia"
+        "Analogico"
       ],
       "MISO": [
         "Analogico"
@@ -634,16 +640,16 @@
         "Potencia"
       ],
       "Net-(U10-HO)": [
-        "Potencia"
+        "Analogico"
       ],
       "Net-(U10-LO)": [
-        "Potencia"
+        "Analogico"
       ],
       "Net-(U11-HO)": [
-        "Potencia"
+        "Analogico"
       ],
       "Net-(U11-LO)": [
-        "Potencia"
+        "Analogico"
       ],
       "Net-(U2-HO)": [
         "Potencia"
@@ -676,16 +682,16 @@
         "Analogico"
       ],
       "Net-(U9-HO)": [
-        "Potencia"
+        "Analogico"
       ],
       "Net-(U9-LO)": [
-        "Potencia"
+        "Analogico"
       ],
       "SCLK": [
         "Analogico"
       ],
       "VBA": [
-        "Analogico"
+        "Potencia"
       ],
       "VBB": [
         "Potencia"
@@ -696,7 +702,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "Potencia",
+        "netclass": "Analogico",
         "pattern": "VBA"
       },
       {
