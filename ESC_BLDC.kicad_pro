@@ -186,8 +186,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.3
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -493,7 +492,7 @@
         "priority": 2,
         "schematic_color": "rgb(108, 0, 255)",
         "track_width": 0.3,
-        "via_diameter": 0.8,
+        "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 12
       },
@@ -504,7 +503,7 @@
         "priority": 0,
         "schematic_color": "rgb(6, 81, 255)",
         "track_width": 0.3,
-        "via_diameter": 0.8,
+        "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 8
       },
@@ -621,9 +620,6 @@
       "NEUTRO": [
         "Analogico"
       ],
-      "Net-(D2-K)": [
-        "Analogico"
-      ],
       "Net-(D5-K)": [
         "Potencia"
       ],
@@ -702,7 +698,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "Analogico",
+        "netclass": "Potencia",
         "pattern": "VBA"
       },
       {
