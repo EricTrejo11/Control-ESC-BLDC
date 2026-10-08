@@ -19636,7 +19636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 254.3048 166.37 0)
 			(effects
 				(font
@@ -21750,7 +21750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 194.0052 172.72 0)
 			(effects
 				(font
